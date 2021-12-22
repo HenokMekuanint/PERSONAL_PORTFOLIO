@@ -1,0 +1,606 @@
+.Asection{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../image/baloon.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+nav{
+    margin: 0px;
+    display: flex;
+    padding: 1% 6%;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul{
+    display: flexbox;
+}
+nav img{
+    width: 9.375rem;
+    padding-left:0%;
+    margin-left:-4.688rem;
+    margin-top: -1.563rem;
+}
+
+.navlinks{
+    flex: 1;
+    text-align: right;
+    margin-top: -3.125rem;
+    word-spacing: 2.362rem;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px,12px;
+    position:relative;
+    font-size: large;
+    font-weight: bolder;
+    flex: auto;
+    text-align: right;
+}
+.navlinks ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+.navlinks ul li::after{
+    content: '';
+width:0;
+height:2px;
+background: #f44336;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+    width: 100%;}
+    .footer{
+        margin-top: 10px;
+        margin-left: 30%;
+        margin-bottom: 0%;
+        position: relative;
+        bottom: 0px;
+    }
+    .footer ul{
+margin-bottom: 0%;
+    }
+    .footer ul li a{
+       color:white;
+       text-decoration: none;
+       font-size: small;
+    } 
+    .footer ul li{
+       display: inline-block;
+       list-style: none;
+       padding-right: 1cm;
+       font-weight: bold;
+       
+    }
+    .footer ul li::after{
+        content: '';
+        width:0;
+        height:2px;
+        background: orange;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .footer ul li:hover::after{
+        width:100%;
+    }
+.bignav{
+    justify-content: space-between;
+    line-height: 250%;
+}
+.bignav ul{
+    list-style: none;
+    justify-content: center;
+    word-spacing: 0px;
+}
+.bignav ul li{
+    display: inline;
+    padding: 0.5rem 0.75rem;
+}
+.bignav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.bignav ul li a:hover{
+    color:#255784 ; 
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,
+    0 0 80px#2196f3;
+}
+#text{
+  padding:10%;
+  color:white;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  
+    
+}
+#text :hover{
+    box-shadow: 0 0 10px hsl(317 100% 54%), 0 0 40px hsl(317 100% 54%),
+    0 0 80px hsl(317 100% 54%);
+}
+#firstpagebody{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+#firstpageimage{
+    padding: 10%;
+    max-width: 60%;
+    max-height: 100%;
+}
+.Bsection{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../image/baloon.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#csection{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../image/trees.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#thirdpagelist{
+    color: white;
+    padding: 30%;
+    list-style: none;
+}
+strong{
+    font-size:large;
+}
+.dsection{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../image/darksky.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#servideid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(800px,1fr))
+}
+#servideid div{
+    margin: 0% 5%;
+}
+.esection{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../image/stones.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+.table{
+    color: white;
+    padding-bottom: 0%;
+}
+.newtable{
+    margin: 0% 10%;
+}
+ .performance{
+     width: 360px;
+     margin: 20px auto;
+     color: white;
+     margin-left: 2%;
+ }
+ .performance li{
+     margin: 20px 0;
+     list-style: none;
+ }
+ .bar{
+     background: #353b48;
+     display: block;
+     height: 2px;
+     border: 1px solid rgba(0,0,0,0.3);
+     border-radius: 3px;
+     overflow: hidden;
+     box-shadow: 0 0 10px #2187e7b3;
+ }
+ .bar span{
+     height: 2px;
+     float: left;
+     background: #2187e7;
+ }
+ .html{
+     width: 90%;
+     animation: css 5s;
+ }
+ .css{
+     width: 95%;
+     animation: html 5s;
+ }
+ .python{
+     width: 90%;
+     animation: python 5s;
+ }
+ .javascript{
+     width: 70%;
+     animation: javascript 5s;
+ }
+ @keyframes html{
+0%{
+    width: 0%;
+}
+100%{
+    width: 90%;
+}
+ } 
+@keyframes css{
+0%{
+        width: 0%;
+}
+100%{
+    width: 65%;
+}
+}
+@keyframes python{
+0%{
+    width: 0%;
+    }
+    100%{
+    width: 50%;
+    }
+    }
+@keyframes javascript{
+0%{
+    width: 0%;
+}
+100%{
+    width: 70%;
+    }
+    }
+.cpara{
+    color: white;
+}
+#workedprojectpagebody{
+    display: flexbox;
+}
+.child {
+    float: left;
+    margin-right: 15rem;
+}
+.secondchild{
+    margin-right: 0%;
+    align-items: right;
+    color: white;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.socialmedia ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:5%;
+    margin-bottom:20%
+}
+.social-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:14% 0%;
+}
+.social-container a{
+    color: hsl(317 100% 54%);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.gallerysection{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../image/trees.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.gallerycontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0% 0%;
+    padding: 5%;
+    padding-top: 0%;
+}
+.bignav .current1{
+    background: green;
+}
+.bignav .current2{
+    background: green;
+}
+.bignav .current3{
+    background: green;
+}
+.bignav .current4{
+    background: green;
+}
+.bignav .current5{
+    background: green;
+}
+.bignav .current6{
+    background: green;
+}
+.footer .current7{
+    background: green;
+}
+.footer .current8{
+    background: #2196f3;
+}
+.fsection{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../image/street.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#feedbackcontainer{
+    color: white;
+    margin-left: 0%;
+    margin-bottom: 2%;
+}
+#feedbackcontainer div{
+    margin: 1% 30%;
+    margin-left: 0%;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid;
+    height: 50px;
+    width: 260px;
+    margin-left: 0%;
+}
+textarea{
+    border-radius: 5px;
+}
+input:focus{
+    border: 2px solid hsl(317 100% 54%);
+    outline: 0;
+}
+textarea:focus{
+    border: 2px solid hsl(317 100% 54%);
+    outline: 0;
+}
+
+#servicetext{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.aicontainer img{
+    margin: 0% 4%;
+}
+.aicontainer{
+    min-height: 50px;
+    margin: 70px auto 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    margin-left: 1%;
+    
+}
+.aicontainer .box{
+   position: relative;
+   width: 300px;
+   height: 300px;
+   margin: 0% 15%;
+   box-sizing: border-box;
+   
+}
+.aicontainer .box .imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.aicontainer .box .imgbox img{
+    transition: transform 1s;
+}
+
+.aicontainer .box :hover.imgbox img{
+    transform: scale(1.2);
+}
+.aicontainer .box .details{
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     right: 10px;
+     background-color: black;
+     transform: scaleY(0);
+     transition: transform 0.5s;
+}
+.aicontainer .box:hover .details{
+    transform: scaleY(1);
+}
+.aicontainer .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(10%);
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.aicontainer .box .details .content p{
+    margin: 10px 0 0;
+    padding: 0%;
+    font-size: 17px;
+    color: #ff0;
+    font-weight: 200%;
+}
+#feedbackcontainer form div{
+    margin: 0% 30% 0% 25%;
+}
+#hsection{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../image/trees.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: whitesmoke;
+}
+.privacyandhelpcontainer{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+.privacyandhelpcontainer div{
+    margin: 5%;
+    margin-bottom: 10%;
+}
+.table-container{
+    padding: 0 10%;
+    margin: 40px auto 0;
+    margin-bottom: 5%;
+}
+.table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.table thead{
+    background-color: green;
+}
+.table thead tr th{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid#dee2e685;
+} 
+.table thead tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #f1f1f1;
+    background-color: #3c3f44;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dee2e685;
+}
+@media(max-width:768px){
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 15px;
+    }
+    .table tbody tr td{
+        text-align: right;
+        position: relative;
+    }
+    .table td:before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+.servicetext{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.tablecontaining{
+    display: flex;
+    flex: wrap;
+}
+.form{
+    margin-left: 25%;
+    color: white;
+}
+@media all and (max-width:400px){
+    nav{
+        font-size: small;
+    }
+}
+@media(max-width:400px){
+.form{
+        margin-left: 0%;
+    }
+}
+@media(max-width:350px){
+    .Asection #firstpagebody #text{
+       font-size:20px !important;
+       padding-left: 3%;
+       margin-left: 0%;
+    }
+    .Asection .bignav{
+        font-size: 10px !important;
+    }
+    .Bsection{
+        font-size: small;
+       padding-left: 0%;
+    }
+    .text{
+        margin-left: 0%;
+        padding-left: 0%;
+        font-size: smaller;
+    }
+    div .aicontainer{
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    #hena{
+        margin-left: 0%;
+        padding-left: 0%;
+        font-size: smaller;
+    }
+    #hena img{
+        width: 150px;
+    }
+}
+@media(max-width:360px){
+    .performance{
+        width: 200px;
+    }
+}
+.imagecontainer{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+#indexcontainer{
+    display: flex;
+    flex: wrap;
+}
