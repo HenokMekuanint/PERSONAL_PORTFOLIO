@@ -2,3 +2,5 @@
 # PERSONAL PORTFOLIO AND PROFILE
 NAME:HENOK MEKUANINT
 ID:UGR/2272/12
+
+![henaport](https://user-images.githubusercontent.com/90408697/174978668-868fcdf1-e10f-4ac1-822f-c83b0ee19128.PNG)
